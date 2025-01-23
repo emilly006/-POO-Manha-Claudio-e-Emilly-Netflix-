@@ -1,0 +1,18 @@
+.lateral {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+
+
+}
+
+.componet {
+  color: #fff;
+
+}
+.componet:hover{
+  color: #999999;
+}
+.lateral:hover{
+  color: #999999;
+}

@@ -1,0 +1,50 @@
+.navBar {
+display: flex;
+flex-direction: row;
+padding: 10px;
+justify-content: space-between;
+
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding-left: 50px;
+    align-items: center;
+}
+.logotipo {
+    width: 100px;
+}
+
+
+
+.link {
+    color: #dcdcdc;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.conta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #dcdcdc;
+    font-size: 14px;
+    gap: 8px;
+    padding-right: 50px;
+    font-weight: 500px;
+    
+
+}
+
+.selecionado {
+    font-weight: 800;
+}
+
+.link:hover {
+    color: #999999;
+}
+.link1:hover{
+    color: #999999;
+}
