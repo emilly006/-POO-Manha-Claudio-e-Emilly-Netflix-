@@ -3,7 +3,7 @@ import { RiNetflixFill } from "react-icons/ri";
 import { FaPlay } from "react-icons/fa";
 import { RxSpeakerLoud } from "react-icons/rx";
 import { IoIosInformationCircleOutline } from "react-icons/io";
-import { TbRating16Plus } from "react-icons/tb";
+import { TbNumber16Small } from "react-icons/tb";
 
 
 
@@ -28,7 +28,11 @@ function Meio() {
             </div>
             <div className='ponta'>
                 <RxSpeakerLoud/>
-                <a> </a>
+                <a> |</a>
+                <div className='ponta1'>
+                <a className='a'> A</a>
+                <TbNumber16Small size={30} color='black'/>
+                </div>
                 </div>
                 </div>
         </div>
