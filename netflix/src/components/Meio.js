@@ -3,6 +3,8 @@ import { RiNetflixFill } from "react-icons/ri";
 import { FaPlay } from "react-icons/fa";
 import { RxSpeakerLoud } from "react-icons/rx";
 import { IoIosInformationCircleOutline } from "react-icons/io";
+import { TbRating16Plus } from "react-icons/tb";
+
 
 
 function Meio() {
@@ -15,16 +17,20 @@ function Meio() {
             <div className='textG'>
                 <a> T H E R E S I D E N T </a>
             </div>
+                <div className='botaos'>
             <div className='butao'>
                 <FaPlay />
                 <a className='textbuton'> Assistir </a>
             </div>
             <div className='buton2'>
-                <IoIosInformationCircleOutline />
-                <a className='textbuton'> Mais informações</a>
+                <IoIosInformationCircleOutline size={25}color='#ffff'/>
+                <a className='textbuton2'> Mais informações</a>
             </div>
+            <div className='ponta'>
                 <RxSpeakerLoud/>
                 <a> </a>
+                </div>
+                </div>
         </div>
     )
 }

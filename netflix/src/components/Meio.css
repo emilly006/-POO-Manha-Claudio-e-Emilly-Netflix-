@@ -1,0 +1,64 @@
+.meio{
+    display: flex;
+    flex-direction: column;
+    padding-top: 250px;
+    gap: 6px;
+    padding-left: 40px;
+    
+}
+.logoN{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5px;
+}
+.link1{
+    color: rgb(167, 166, 166);
+    font-size: 10px;
+    font-weight: 900
+}
+.textG{
+    color: #ffff;
+    font-size: 40px;
+    padding-left: 20px;
+
+}
+.butao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffff;
+    width: 100px;
+    height: 34px;
+    padding-left: 20px;
+    border-radius: 4px;
+    gap: 10px;
+
+}
+.textbuton{
+    color: black;
+    font-weight: 600
+    
+}
+.botaos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+}
+.buton2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #817f7fc2;
+    width: 180px;
+    height: 34px;
+    padding-left: 20px;
+    border-radius: 4px;
+    gap: 10px;
+}
+.textbuton2{
+    color: rgb(255, 255, 255);
+    font-weight: 600
+    
+}

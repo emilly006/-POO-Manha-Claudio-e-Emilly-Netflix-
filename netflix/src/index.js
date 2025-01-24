@@ -6,8 +6,6 @@ import MenuLateral from './components/MenuLateral'
 import SelecaoPerfil from './components/SelecaoPerfil';
 import NavBar from './components/NavBar';
 import Meio from './components/Meio';
-import Carrossel from './components/Carrossel'
-
 import {BrowserRouter} from 'react-router-dom';
 import MainRoutes from './Routes';
 
