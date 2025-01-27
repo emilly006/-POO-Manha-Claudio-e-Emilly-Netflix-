@@ -45,6 +45,7 @@
     flex-direction: row;
     align-items: center;
     gap:10px;
+
 }
 .buton2{
     display: flex;
@@ -78,4 +79,10 @@
 }
 .a{
     font-size: 20px;
+}
+.tudo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap
 }

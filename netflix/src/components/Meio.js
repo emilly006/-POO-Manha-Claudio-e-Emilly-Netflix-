@@ -17,21 +17,23 @@ function Meio() {
             <div className='textG'>
                 <a> T H E R E S I D E N T </a>
             </div>
-                <div className='botaos'>
-            <div className='butao'>
-                <FaPlay />
-                <a className='textbuton'> Assistir </a>
-            </div>
-            <div className='buton2'>
-                <IoIosInformationCircleOutline size={25}color='#ffff'/>
-                <a className='textbuton2'> Mais informações</a>
-            </div>
-            <div className='ponta'>
-                <RxSpeakerLoud/>
-                <a> |</a>
-                <div className='ponta1'>
-                <a className='a'> A</a>
-                <TbNumber16Small size={30} color='black'/>
+            <div className='tudo'>
+            <div className='botaos'>
+                <div className='butao'>
+                     <FaPlay />
+                    <a className='textbuton'> Assistir </a>
+                </div>
+                <div className='buton2'>
+                    <IoIosInformationCircleOutline size={25}color='#ffff'/>
+                    <a className='textbuton2'> Mais informações</a>
+                </div>
+                <div className='ponta'>
+                < RxSpeakerLoud/>
+                    <a> |</a>
+                    <div className='ponta1'>
+                        <a className='a'> A</a>
+                        <TbNumber16Small size={30} color='black'/>
+                     </div>
                 </div>
                 </div>
                 </div>
