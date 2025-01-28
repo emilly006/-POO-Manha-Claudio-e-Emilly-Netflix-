@@ -1,3 +1,8 @@
+.tudo{
+    display:flex;
+
+}
+
 .carrossel{
     display: flex;
     flex-direction: column;
@@ -10,8 +15,10 @@
     gap: 10px;
 }
 .texto{
-    font-size: 80px;
+    font-size: 3px;
     color: white;
     font-weight: 900
 }
+.fotos{
 
+}

@@ -1,4 +1,4 @@
-import './Carrossel.js'
+import './Carrossel.css'
 import flash from '../img/Flahposter.webp'
 import arrow from '../img/Arrow.jpg'
 import gossio from '../img/gossio.jpg'
@@ -9,20 +9,18 @@ function Carrossel(){
     return(
       <div className='tudo'>
         <div className='carrossel'>
-          <div className='texto'>
-            <a> Séries estrangeiras dubladas em português</a>
-          </div>
+            <a className='texto'> Séries estrangeiras dubladas em português</a>
           <div className='series'>
-            <img className='fotos' src='Flahposter.webp' />
-            <img className='fotos' src='Arrow.jpg' />
-            <img className='fotos' src='gossio.jpg' />
-            <img className='fotos' src='greys.jpg' />
-            <img className='fotos' src='pll.jpg' />
-
+          <img className='logotipo' src={flash} />
+            <img className='fotos' src={arrow} />
+            <img className='fotos' src={gossio} />
+            <img className='fotos' src={greys} />
+            <img className='fotos' src={pll} />
           </div>
         </div>
       </div>
     )
 
 }
-export default Carrossel
+
+export default Carrossel;
