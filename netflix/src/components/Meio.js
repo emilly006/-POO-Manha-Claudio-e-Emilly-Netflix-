@@ -27,7 +27,7 @@ function Meio() {
                         <IoIosInformationCircleOutline size={30} color='#ffff' />
                         <a className='textbuton2'> Mais informações</a>
                     </div>
-                </div>s
+                </div>
                 <div className='ponta'>
                     <div className='som'>
                     <RxSpeakerLoud size={30} color=' #6d6d6d'/>

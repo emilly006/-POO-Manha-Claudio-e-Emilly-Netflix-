@@ -38,6 +38,8 @@ function Carrossel() {
             <img className='fotos' src={gossio} />
             <img className='fotos' src={greys} />
             <img className='fotos' src={pll} />
+            <img className='fotos' src={th} />
+
           </div>
         </div>
 
@@ -52,6 +54,8 @@ function Carrossel() {
             <img className='fotos' src={louca} />
             <img className='fotos' src={solteiros} />
             <img className='fotos' src={luta} />
+            <img className='fotos' src={auto} />
+
 
           </div>
         </div>
@@ -69,22 +73,28 @@ function Carrossel() {
       </div>  
 
         </div>
-        <div className='carrossel2'>
-          <div className='texto4'>
+        <div className='carrossel'>
+          <div className='texto2'>
             <a className='texto'> Brasil: top 10 em séries hoje</a>
-            <a className='barrinhas'>-------------</a>
+            <a className='barrinhas'>--</a>
           </div>
           <div className='serie2'>
+            <span className='numero'> 1</span>
             <img className='fotos2' src={xo} />
+            <span className='numero'> 2</span>
             <img className='fotos2' src={round} />
+            <span className='numero'> 3</span>
             <img className='fotos2' src={saka} />
+            <span className='numero'> 4</span>
             <img className='fotos2' src={terra} />
+            <span className='numero'> 5</span>
             <img className='fotos2' src={perfilFalso} />
+            <span className='numero'> 6</span>
 
+          </div>
           </div>
         </div>
       </div>
-    </div>
   )
 
 }
