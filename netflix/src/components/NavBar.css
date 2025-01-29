@@ -1,7 +1,7 @@
 .navBar {
 display: flex;
 flex-direction: row;
-padding: 10px;
+padding: 15px;
 justify-content: space-between;
 
 }
@@ -20,7 +20,7 @@ justify-content: space-between;
 
 .link {
     color: #dcdcdc;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 500;
 
 }
@@ -30,7 +30,7 @@ justify-content: space-between;
     flex-direction: row;
     align-items: center;
     color: #dcdcdc;
-    font-size: 14px;
+    font-size: 18px;
     gap: 8px;
     padding-right: 50px;
     font-weight: 500px;

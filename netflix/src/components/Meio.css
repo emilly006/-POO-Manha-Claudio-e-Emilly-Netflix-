@@ -3,7 +3,8 @@
     flex-direction: column;
     padding-top: 250px;
     gap: 6px;
-    padding-left: 40px;
+    padding-left: 50px;
+    padding-bottom: 200px;
     
 }
 .logoN{
@@ -21,6 +22,7 @@
     color: #ffff;
     font-size: 40px;
     padding-left: 20px;
+    padding-bottom: 35px;
 
 }
 .butao{
@@ -29,7 +31,7 @@
     align-items: center;
     background-color: #ffff;
     width: 100px;
-    height: 34px;
+    height: 40px;
     padding-left: 20px;
     border-radius: 4px;
     gap: 10px;
@@ -53,7 +55,7 @@
     align-items: center;
     background-color: #817f7fc2;
     width: 180px;
-    height: 34px;
+    height: 40px;
     padding-left: 20px;
     border-radius: 4px;
     gap: 10px;
@@ -63,26 +65,40 @@
     font-weight: 600
     
 }
-.ponta{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: right;
 
-}
 .ponta1{
     display: flex;
     flex-direction: row;
     align-items: center;
     background-color: yellow;
-
 }
 .a{
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: 600;
+  
 }
 .tudo{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 300px;
+    justify-content: space-between;
+ 
+
+}
+.ponta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border: 2px;
+    border-radius: 50px;
+    margin-right: 55px;
+    
+}
+.barra{
+    color: #ffff;
+    font-size: 30px;
+    gap:8px;
+    font-weight: 700px
 }
